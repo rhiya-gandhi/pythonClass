@@ -1,5 +1,5 @@
 with open ("names.txt", "r") as f:
-    nm = [name.strip() for name in f]
+    nm = f.read().splitlines()
 unique = list((set(nm)))
 unique.sort(key = len)
 
