@@ -14,4 +14,3 @@ print(number)
 print(max(number)-min(number))
 number.append(2/2)
 print(number)
-

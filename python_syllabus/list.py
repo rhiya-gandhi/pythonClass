@@ -26,6 +26,9 @@ print("after poping at index 2 ",list)
 number = [11,22,33,4,55,66,67]
 print("length of the list is ",len(number))
 
+#ascending order
+numberr = [1,2,3,9,8,7,6]
+print("ascendig order ", sorted(numberr))
+
 #descending order
-number.sort(reverse=True)
-print("descending order ",number)
+print("descending number: ",sorted(numbers,reverse=True))
